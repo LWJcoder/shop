@@ -1,0 +1,307 @@
+.gray{
+	background-color: #f0f0f0;
+}
+
+.loca{
+	
+	font-family:Verdana;
+	margin-top:  25px;
+}
+
+.loca em,
+.loca a{
+	font-size: 12px;
+
+}
+
+
+.product_info{
+	background-color: #fff;
+}
+
+/* 左侧 */
+.product_info .leftArea{
+	width: 309px;
+	border: #ccc solid 1px;
+	float: left;
+}
+
+.des_img{
+	margin-top: 25px;
+}
+.big_img{
+	height: 340px;
+	text-align: center;
+}
+
+.big_img img{
+	display: inline-block;
+	
+}
+
+
+.sm_img{
+	padding-left: 1px;/*  让重复边框变1条边框 */
+}
+
+.img_list{
+	margin:0 auto;/* 自动居中 */
+	width: 264px;
+}
+
+.img_list .active{
+	position: relative; /* 让蓝色边框显示在最上面 */
+	border: #317ee7 solid 2px;
+}
+
+.img_list li{
+	border: #ccc solid 1px;
+	margin-left: -1px;/*  让重复边框变1条边框 */
+	float: left;
+}
+/* 右侧 */
+
+ .product_info .rightArea{
+	width: 685px;
+	display: inline-block;
+	color: #666666;
+}
+
+
+.des_title h3{
+	font: bold 16px/22px "Microsoft YaHei" ,"微软雅黑";
+	padding: 13px 25px;
+
+}
+.text_info .dl,
+.des_position .dl{
+	margin-bottom: 10px;
+}
+
+ .dt{
+	float: left;
+	display: inline-block;
+	width: 75px; 
+	text-indent: 17px;
+	color: #666;
+	height: 25px;
+	line-height: 25px;
+
+}
+
+.dt span{
+	height: 22px;
+	line-height: 22px;
+}
+
+.dd em{
+	font-style: normal;
+	font-size: 12px;
+	color: #f99;
+	font: bold 16px/22px "Microsoft YaHei" ,"微软雅黑";;
+}
+
+.dd{
+
+	padding-left: 95px;
+	*padding-left: 75px;
+
+}
+
+.hg{
+	padding-top: 4px;
+	display: inline-block;
+}
+.tip{
+	display: inline-block;
+	width: 58px;
+	height: 18px;
+	background: url(../images/icons/tip.jpg) left top no-repeat;
+	color: #fff;
+	text-indent: 16px;
+	line-height: 18px;
+	margin-right: 10px;
+
+}
+
+
+
+
+.select{
+	height: 22px;
+	line-height: 22px;
+	z-index: 4;
+	border: #999 solid 1px; 
+	position: relative;
+	padding-left: 10px;
+	padding-right: 20px;
+	background-color: #FFF;
+
+	vertical-align: middle;
+	margin-right: 20px; 
+}
+.select h3{
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.select span{
+
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 20px;
+	background: url(../images/icons/down2.jpg) center center no-repeat;
+	position: absolute;
+}
+
+.show_select{
+	top: 22px;
+	left: 0;
+	position: absolute;
+	background-color: #FFF;
+	
+	width: 100%;
+	z-index: 4;
+	left: -1px; 
+}
+
+.show_select li{
+	padding-left: 10px;
+	float: none;
+	
+}
+
+.havaGood{
+	text-indent: 10px;
+	line-height: 25px;
+	height: 25px;
+}
+.des_position{
+	padding: 15px 0;
+	background-color: #f2f2f2;
+	margin-bottom: 20px;
+	width: 675px;
+
+}
+
+.des_position .dl{
+	margin-bottom: 10px;
+}
+
+
+.des_num li{ 
+	margin-bottom: 10px;
+}
+.colorItem{
+	padding: 4px 15px;
+	color: #666;
+	border: #ccc solid 1px;
+	float: left;
+	
+	margin-right: 10px;
+	background-color: #fff;
+}
+
+.colorItem_active{
+	border-color: #317ee7;
+	color: #333;
+}
+
+.control{
+	width: 82px;
+	height: 32px;
+	line-height: 32px;
+	float: left;/*  加了后面的才不会掉下去 */
+	border: #ccc solid 1px;
+}
+
+.control div{
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
+.number{
+	overflow: hidden;
+	width: 50px;
+}
+.sub,.number input,.plus{
+	
+	text-align: center;
+}
+.number input{
+	width: 100%;
+	height: 100%;
+	background:url(../images/input.jpg) left top no-repeat;
+	line-height: 32px\9;
+	text-align: center;
+	color: #333;
+}
+
+ .sub,.plus{
+	width: 15px;
+	height: 32px;
+	line-height: 32px;
+	background:url(../images/plus.jpg) left top no-repeat;
+}
+
+.sub{
+	border-right: #666 solid 1px;
+}
+
+.plus{
+	border-left: #666 solid 1px;
+}
+
+.xiangou{
+	display: inline-block;
+	line-height: 32px;
+	float: left;
+	padding-left: 10px;
+}
+.xiangou em{
+	color: orange;
+	font-style: normal;
+}
+
+.des_select{
+	font-weight: bold;
+	margin-left: 17px;
+}
+
+.des_select span{
+	color:  #317ee7;
+}
+/* 加入购物车 */
+.shop_btn{
+	height: 85px;
+	margin-left: 20%;
+}
+.shopcar,.buy{
+	background: url(../images/shopcar.png) left top no-repeat;
+	width: 184px;
+	height: 48px;
+	display: inline-block;
+
+}
+.line{
+	margin: 0 40px;
+	width:1px;
+	height: 82px;
+	background-color: #ccc;
+	display: inline-block;
+	
+	overflow: hidden;
+}
+
+.shopcar,.line,.buy{
+	vertical-align: middle;
+}
+
+.notes{
+	color: #999;
+	font-weight: normal;
+	text-indent: 17px;
+	margin-left: 30px;
+}

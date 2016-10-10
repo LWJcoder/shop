@@ -1,0 +1,108 @@
+.hr_7{
+	padding-top: 7px;
+}
+.hr_15{
+	padding-top: 15px;
+}
+
+.products .leftArea{
+	width: 185px;
+}
+.products .rightArea{
+	width: 810px;
+
+}
+.products  .bannerbar{
+	float: none;
+}
+.leftNav{
+	background-color: #F3F3F3;
+	border: #D7d7d7 solid 1px;
+
+}
+
+.nav_title{
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	text-align: center;
+	border-bottom: #CCC solid 1px;
+}
+
+.navCont{
+	border-bottom: #ccc dotted 1px;
+	margin-bottom: -1px;/*  最下的点状线消失 */
+	padding:0 18px 4px;/*  上 左右 下 */
+}
+.navCont_title{
+	font-size: 12px;
+	line-height: 30px;
+	height: 30px;
+
+	
+}
+.nav_list{
+	line-height: 25px;
+}
+
+.nav_list li{
+	float : left;
+	width: 50%; 
+}
+
+/* 标题 */
+.products_title{
+	height: 34px;
+	border-bottom: #cccccc solid 2px; 
+
+}
+
+.products_title h3{
+	width: 180px;
+	height: 34px;
+	line-height: 34px;
+	border-bottom: #096DBA solid 2px;
+	text-indent: 9px;
+}
+
+.item{
+	width:25%;
+	float: left;
+	
+}
+
+.item_cont{
+	padding: 0 15px;
+}
+
+.img_item{
+	height: 170px;
+	text-align: center;
+	
+
+}
+
+.img_item img{
+	height: 170px;
+	float: left;
+
+}
+
+.item p{
+	line-height: 14px;
+	
+	
+}
+.item a:hover{
+	text-decoration: underline;
+}
+
+.money{
+	color: #d4105a;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.pj{
+	color: blue;
+}

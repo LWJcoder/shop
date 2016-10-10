@@ -1,0 +1,330 @@
+.hr_7{
+	padding-top: 7px;
+}
+.hr_15{
+	padding-top: 15px;
+}
+.page .active,
+.blue_bg{
+	background-color: #3366CC;
+	color: #fff;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+.hide{
+	display: none;
+}
+
+.products .leftArea{
+	width: 185px;
+}
+.products .rightArea{
+	width: 810px;
+
+}
+.products  .bannerbar{
+	float: none;
+}
+.leftNav{
+	background-color: #F3F3F3;
+	border: #D7d7d7 solid 1px;
+
+}
+
+.nav_title{
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	text-align: center;
+	border-bottom: #CCC solid 1px;
+}
+
+.navCont{
+	border-bottom: #ccc dotted 1px;
+	margin-bottom: -1px;/*  最下的点状线消失 */
+	padding:0 18px 4px;/*  上 左右 下 */
+}
+.navCont_title{
+	font-size: 14px;
+	line-height: 30px;
+	height: 30px;
+	
+	
+}
+.nav_list{
+	line-height: 25px;
+}
+
+.nav_list li{
+	float : none;
+	width: 100%; 
+	padding: 0 10px;
+}
+
+/* 标题 */
+.products_title{
+	height: 34px;
+	border-bottom: #cccccc solid 2px; 
+
+}
+
+.products_title h3{
+	width: 180px;
+	height: 34px;
+	line-height: 34px;
+	border-bottom: #096DBA solid 2px;
+	text-indent: 9px;
+}
+.products_list{
+	padding-left: -0.5%;
+}
+
+.item{
+	width:33.3%;
+	float: left;
+	
+}
+
+.item_cont{
+	padding: 0 35px;
+
+}
+
+.img_item{
+	height: 170px;
+	text-align: center;
+	
+
+}
+
+.img_item img{
+	height: 170px;
+	float: left;
+
+}
+
+.item p{
+	line-height: 14px;
+	
+	
+}
+.item a:hover{
+	text-decoration: underline;
+}
+
+.money{
+	color: #d4105a;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.pj{
+	color: blue;
+}
+
+.goodslist{
+	width: 796px;
+}
+
+.screening {
+	border-bottom: #ccc solid 1px;
+}
+
+.filter{
+	width: 810px;
+}
+
+.screening dt,
+.screening_more dt{
+	text-align: right;
+	float: left;
+	display: inline-block;
+	width: 74px;
+	line-height: 32px;
+	height: 32px;
+	margin-right: 42px;
+
+}
+
+
+.limit{
+	width: 55px;
+	float: left;
+	line-height: 32px;
+	display: inline;
+}
+
+.screening .active{
+	background-color: #1d7ad9;
+	color: #fff;
+	text-align: center;
+	}
+
+.screening a{
+	padding: 2px;
+}
+
+.screening_list{
+	line-height: 32px;
+	width: 500px;
+	float: left;
+}
+
+.screening li{
+	width: 20%;
+	float: left;
+}
+
+.screening_more
+{
+	
+	margin: 4px 15px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+
+}
+
+.select{
+	height: 22px;
+	line-height: 22px;
+	z-index: 4;
+	border: #999 solid 1px; 
+	position: relative;
+	padding-left: 10px;
+	padding-right: 20px;
+	background-color: #FFF;
+	margin-top: 4px;
+	vertical-align: middle;
+	margin-right: 20px; 
+}
+.select h3{
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.select span{
+
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 20px;
+	background: url(../images/icons/down1.jpg) center center no-repeat;
+	position: absolute;
+}
+
+.show_select{
+	top: 22px;
+	left: 0;
+	position: absolute;
+	background-color: #FFF;
+	
+	width: 100%;
+	z-index: 4;
+	left: -1px; 
+}
+
+.show_select li{
+	padding-left: 10px;
+	float: none;
+	
+}
+/* 地址栏 */
+.addr{
+	height: 31px;
+	
+	background-color: #F5f5f5;
+
+}
+
+.address {
+float: left;
+width: 100%;
+height: 35px;
+background-color: #F5f5f5;
+position: relative;
+line-height: 35px;
+
+}
+
+.address h3{
+	display: inline-block;
+	float: left;
+	margin-left: 30px;
+	margin-right: 15px;
+}
+
+.addr  .select{
+	margin-top: 4px;
+}
+
+.rightInfo{
+	line-height: 35px;
+	height: 35px;
+	vertical-align: middle;
+	padding-right: 10px;
+	top: -1px;
+	position: relative;
+}
+
+.rightInfo input,
+.rightInfo span{
+	vertical-align: middle;
+}
+
+.rightInfo a{
+	color: #d4105a;
+	font-weight: bold;
+}
+
+.shopcar{
+	border: #999 solid 1px; 
+	float: left;
+	background: url(../images/icons/shopcar.png) 6px no-repeat;
+	padding: 0 6px 0 23px;
+	height: 22px;
+	display: inline-block;
+	margin-top: 8px;
+	line-height: 22px;
+
+}
+
+.page{
+	margin-top: 35px;
+	text-align: center;
+	
+	height: 35px;
+	line-height: 35px;
+	vertical-align: middle;
+}
+
+.page span{
+	display: inline-block;
+	height: 22px;
+	line-height: 22px;
+}
+
+.page a{
+	line-height: 35px;
+	padding: 0 10px;
+	height: 35px;
+	border: #999 solid 1px;
+	text-align: center;
+	margin:0 5px;
+	display: inline-block;
+}
+
+.page input{
+	display: inline-block;
+}
+
+.ye{
+	padding: 0 5px;
+}
+
+.ensure{
+	height: 35px;
+	padding: 0 10px;
+}
